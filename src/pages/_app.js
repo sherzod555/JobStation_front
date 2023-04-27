@@ -9,7 +9,6 @@ import '../../public/fonts/line-icons/style.css'
 import '../../public/css/animate.min.css'
 import '../../public/css/style.css'
 import NextNProgress from 'nextjs-progressbar';
-import '../styles/globals.scss'
 import Layout from 'components/Layout';
 
 function MyApp({ Component, pageProps }) {
