@@ -27,10 +27,6 @@ const EmployerRegister = () => {
     return (
         <section className="site-section  section-hero overlay bg-image pt-5 overflow-hidden" style={{ backgroundImage: 'url("/images/hero_1.jpg")' }}>
             {loading && <Loader />}
-
-            <a href="#">Home</a> <span className="mx-2 slash">/</span>
-
-
             <div className="container d-flex flex-column justify-content-start">
                 <div className="d-flex mx-auto mb-4">
                     <button className="btn btn-primary mx-1 disabled" onClick={() => router.push('/auth/register')}>As Employee</button>

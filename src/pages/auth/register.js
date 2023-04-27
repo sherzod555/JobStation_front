@@ -30,9 +30,6 @@ const Register = () => {
             <div className="container d-flex flex-column justify-content-start">
                 {loading && <Loader />}
 
-                
-                <a href="#">Home</a> <span className="mx-2 slash">/</span>
-
                 <div className="d-flex mx-auto mb-4">
                     <button className="btn btn-primary mx-1">As Employee</button>
                     <button className="btn btn-primary mx-1 disabled" onClick={() => router.push('/auth/employer-register')}>As Employer</button>

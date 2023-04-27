@@ -28,10 +28,7 @@ const Login = () => {
     return (
         <section className="site-section home-section section-hero overlay bg-image" style={{ backgroundImage: 'url("/images/hero_1.jpg")' }}>
             {loading && <Loader />}
-
-
-            <a href="#">Home</a> <span className="mx-2 slash">/</span>
-           
+        
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-lg-6 mx-auto">
