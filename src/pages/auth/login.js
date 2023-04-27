@@ -30,23 +30,7 @@ const Login = () => {
             {loading && <Loader />}
 
 
-             {/*  */}
-             
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-7">
-                                <h1 className="text-white font-weight-bold">About Us</h1>
-                                <div className="custom-breadcrumbs">
-                                    <a href="#">Home</a> <span className="mx-2 slash">/</span>
-                                    <span className="text-white">
-                                        <strong>About Us</strong>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-                {/*  */}
+            <a href="#">Home</a> <span className="mx-2 slash">/</span>
            
             <div className="container">
                 <div className="row mb-5">

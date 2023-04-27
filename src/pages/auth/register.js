@@ -30,24 +30,8 @@ const Register = () => {
             <div className="container d-flex flex-column justify-content-start">
                 {loading && <Loader />}
 
- {/*  */}
- 
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-7">
-                                <h1 className="text-white font-weight-bold">About Us</h1>
-                                <div className="custom-breadcrumbs">
-                                    <a href="#">Home</a> <span className="mx-2 slash">/</span>
-                                    <span className="text-white">
-                                        <strong>About Us</strong>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 
-                {/*  */}
-
+                <a href="#">Home</a> <span className="mx-2 slash">/</span>
 
                 <div className="d-flex mx-auto mb-4">
                     <button className="btn btn-primary mx-1">As Employee</button>
