@@ -35,7 +35,7 @@ const About = () => {
                     <div className="container">
                         <div className="row mb-5">
                             <div className="col-12 text-center" data-aos="fade">
-                                <h2 className="section-title mb-3">Our Team</h2>
+                                <h2 className="section-title mb-3">About my application</h2>
                             </div>
                         </div>
                         <div className="row align-items-center block__69944">

@@ -34,11 +34,7 @@ const Navbar = () => {
                                     <a>About</a>
                                 </Link>
                             </li>
-                            {/* <li>
-                                <Link href='/contacts'>
-                                    <a>Contact</a>
-                                </Link>
-                            </li> */}
+                            
                         </ul>
                     </nav>
                     <div className="right-cta-menu text-right d-flex aligin-items-center col-6">

@@ -29,13 +29,7 @@ const CvSingle = ({data = {}}) => {
                         <div className="row">
                             <div className="col-lg-8">
                                 <div className="mb-5">
-                                    {/* <figure className="mb-5">
-                                        <img
-                                            src="images/job_single_img_1.jpg"
-                                            alt="Image"
-                                            className="img-fluid rounded"
-                                        />
-                                    </figure> */}
+                                    
                                     <h3 className="h5 d-flex align-items-center mb-4 text-primary">
                                         <span className="icon-align-left mr-3" />
                                         Cv Description
