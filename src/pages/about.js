@@ -100,74 +100,16 @@ const About = () => {
                             </div>
                         </div>
                         <div className="row align-items-center block__69944">
-                            <div className="col-md-6 position-relative" style={{width: '500px', height: '500px'}}>
-                                <Image
-                                    src="/images/person_6.jpg"
-                                    layout='fill'
-                                    objectFit='cover'
-                                    alt="Image"
-                                    className="img-fluid mb-4 rounded"
-                                />
-                            </div>
-                            <div className="col-md-6">
-                                <h3>Elisabeth Smith</h3>
-                                <p className="text-muted">Creative Director</p>
                                 <p>
-                                    Soluta quasi cum delectus eum facilis recusandae nesciunt molestias
-                                    accusantium libero dolores repellat id in dolorem laborum ad modi
-                                    qui at quas dolorum voluptatem voluptatum repudiandae voluptatibus
-                                    ut? Ex vel ad explicabo iure ipsa possimus consectetur neque rem
-                                    molestiae eligendi velit?.
+                                    JobStation is an online job hosting and seeking platform that connects employers and job seekers in a seamless and efficient manner. Our platform is designed to simplify the job search process and make it easier for job seekers to find employment opportunities that match their skills and experience, while also helping employers to reach a wider pool of qualified candidates.
+
+At JobStation, we understand the importance of finding the right job or candidate, which is why we have built a robust platform that offers a range of features and tools to streamline the job search process. Job seekers can create a profile, upload their resume, and browse through job postings that match their qualifications, while employers can post job openings, search for candidates, and review resumes and applications.
+
+Our platform is user-friendly and intuitive, making it easy for job seekers and employers to navigate and find what they are looking for. We also provide resources and tips for job seekers, such as resume writing and interview preparation advice, to help them succeed in their job search.
+
+Whether you are an employer looking to fill a position or a job seeker searching for your next career opportunity, JobStation is the go-to platform for all your job hosting and seeking needs. Join us today and take the first step towards finding the perfect job or candidate!
                                 </p>
-                                <div className="social mt-4">
-                                    <a href="#">
-                                        <span className="icon-facebook" />
-                                    </a>
-                                    <a href="#">
-                                        <span className="icon-twitter" />
-                                    </a>
-                                    <a href="#">
-                                        <span className="icon-instagram" />
-                                    </a>
-                                    <a href="#">
-                                        <span className="icon-linkedin" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="col-md-6 order-md-2 ml-md-auto position-relative" style={{width: '500px', height: '500px'}}>
-                                <Image
-                                    layout='fill'
-                                    objectFit='cover'
-                                    src="/images/person_5.jpg"
-                                    alt="Image"
-                                    className="img-fluid mb-4 rounded"
-                                />
-                            </div>
-                            <div className="col-md-6">
-                                <h3>Chintan Patel</h3>
-                                <p className="text-muted">Creative Director</p>
-                                <p>
-                                    Soluta quasi cum delectus eum facilis recusandae nesciunt molestias
-                                    accusantium libero dolores repellat id in dolorem laborum ad modi
-                                    qui at quas dolorum voluptatem voluptatum repudiandae voluptatibus
-                                    ut? Ex vel ad explicabo iure ipsa possimus consectetur neque rem
-                                    molestiae eligendi velit?.
-                                </p>
-                                <div className="social mt-4">
-                                    <a href="#">
-                                        <span className="icon-facebook" />
-                                    </a>
-                                    <a href="#">
-                                        <span className="icon-twitter" />
-                                    </a>
-                                    <a href="#">
-                                        <span className="icon-instagram" />
-                                    </a>
-                                    <a href="#">
-                                        <span className="icon-linkedin" />
-                                    </a>
-                                </div>
-                            </div>
+                                
                         </div>
                     </div>
                 </section>

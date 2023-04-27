@@ -29,10 +29,7 @@ export default function Home({ data }) {
                   <h1 className="text-white font-weight-bold">
                     The Easiest Way To Get Your Dream Job
                   </h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Cupiditate est, consequuntur perferendis.
-                  </p>
+                  
                 </div>
                 <div className="search-jobs-form">
                   <div className="row mb-5">
