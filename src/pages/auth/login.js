@@ -28,8 +28,10 @@ const Login = () => {
     return (
         <section className="site-section home-section section-hero overlay bg-image" style={{ backgroundImage: 'url("/images/hero_1.jpg")' }}>
             {loading && <Loader />}
-            {/*  */}
-            <div className="site-mobile-menu site-navbar-target">
+
+
+             {/*  */}
+             <div className="site-mobile-menu site-navbar-target">
                     <div className="site-mobile-menu-header">
                         <div className="site-mobile-menu-close mt-3">
                             <span className="icon-close2 js-menu-toggle" />
@@ -57,6 +59,7 @@ const Login = () => {
                     </div>
                 </section>
                 {/*  */}
+           
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-lg-6 mx-auto">

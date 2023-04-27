@@ -29,6 +29,38 @@ const Register = () => {
         <section className="site-section  section-hero overlay bg-image pt-5 overflow-hidden" style={{ backgroundImage: 'url("/images/hero_1.jpg")' }}>
             <div className="container d-flex flex-column justify-content-start">
                 {loading && <Loader />}
+
+ {/*  */}
+ <div className="site-mobile-menu site-navbar-target">
+                    <div className="site-mobile-menu-header">
+                        <div className="site-mobile-menu-close mt-3">
+                            <span className="icon-close2 js-menu-toggle" />
+                        </div>
+                    </div>
+                    <div className="site-mobile-menu-body" />
+                </div>
+                <section
+                    className="section-hero overlay inner-page bg-image"
+                    style={{ backgroundImage: 'url("images/hero_1.jpg")' }}
+                    id="home-section"
+                >
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-7">
+                                <h1 className="text-white font-weight-bold">About Us</h1>
+                                <div className="custom-breadcrumbs">
+                                    <a href="#">Home</a> <span className="mx-2 slash">/</span>
+                                    <span className="text-white">
+                                        <strong>About Us</strong>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/*  */}
+
+
                 <div className="d-flex mx-auto mb-4">
                     <button className="btn btn-primary mx-1">As Employee</button>
                     <button className="btn btn-primary mx-1 disabled" onClick={() => router.push('/auth/employer-register')}>As Employer</button>
