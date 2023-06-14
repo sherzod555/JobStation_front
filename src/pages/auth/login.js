@@ -18,6 +18,7 @@ const Login = () => {
             localStorage.setItem('token', JSON.stringify(res?.jwt))
             localStorage.setItem('user', JSON.stringify(res?.user))
             router.push('/')
+            
         } catch (error) {
             console.log(error);
             alert('Somethink went wrong')
